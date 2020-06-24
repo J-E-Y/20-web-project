@@ -29,8 +29,6 @@ function checkEmail(input) {
   }
 }
 
-//* Event listensers
-
 //* check required fields
 
 function checkRequired(inputArr) {
@@ -58,6 +56,14 @@ function checkLength(input, min, max) {
   }
 }
 
+//* check passwords match
+
+function checkPasswordsMatch(input1, input2) {
+  if (input1.value !== input2.value) {
+    showError(input2, 'Password do not match');
+  }
+}
+
 //* Get fieldname
 
 function getFieldName(input) {
@@ -71,30 +77,5 @@ form.addEventListener('submit', function (e) {
   checkLength(username, 3, 15);
   checkLength(password, 6, 25);
   checkEmail(email);
-
-  // if (username.value === '') {
-  //   showError(username, 'Username is required');
-  // } else {
-  //   showSuccess(username);
-  // }
-
-  // if (email.value === '') {
-  //   showError(email, 'email is required');
-  // } else if (!isValidEmail(email.value)) {
-  //   showError(email, 'email is valid');
-  // } else {
-  //   showSuccess(email);
-  // }
-
-  // if (password.value === '') {
-  //   showError(password, 'password is required');
-  // } else {
-  //   showSuccess(password);
-  // }
-
-  // if (password2.value === '') {
-  //   showError(password2, 'password2 is required');
-  // } else {
-  //   showSuccess(password2);
-  // }
+  checkPasswordsMatch(password, password2);
 });
