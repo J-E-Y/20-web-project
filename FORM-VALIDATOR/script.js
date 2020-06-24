@@ -1,5 +1,5 @@
 const form = document.getElementById('form');
-const usermae = document.getElementById('username');
+const username = document.getElementById('username');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
@@ -26,32 +26,53 @@ function isValidEmail(email) {
 }
 
 //* Event listensers
+
+//* check required fields
+
+function checkRequired(inputArr) {
+  inputArr.forEach((input) => {
+    if (input.value.trim() === '') {
+      showError(input, `${getFieldName(input)} is required`);
+    } else {
+      showSuccess(input);
+    }
+  });
+}
+
+//* Get fieldname
+
+function getFieldName(input) {
+  return input.id.charAt(0).toUpperCase() + input.id.slice(1);
+}
+
 form.addEventListener('submit', function (e) {
   e.preventDefault();
 
-  if (username.value === '') {
-    showError(username, 'Username is required');
-  } else {
-    showSuccess(username);
-  }
+  checkRequired([username, email, password, password2]);
 
-  if (email.value === '') {
-    showError(email, 'email is required');
-  } else if (!isValidEmail(email.value)) {
-    showError(email, 'email is valid');
-  } else {
-    showSuccess(email);
-  }
+  // if (username.value === '') {
+  //   showError(username, 'Username is required');
+  // } else {
+  //   showSuccess(username);
+  // }
 
-  if (password.value === '') {
-    showError(password, 'password is required');
-  } else {
-    showSuccess(password);
-  }
+  // if (email.value === '') {
+  //   showError(email, 'email is required');
+  // } else if (!isValidEmail(email.value)) {
+  //   showError(email, 'email is valid');
+  // } else {
+  //   showSuccess(email);
+  // }
 
-  if (password2.value === '') {
-    showError(password2, 'password2 is required');
-  } else {
-    showSuccess(password2);
-  }
+  // if (password.value === '') {
+  //   showError(password, 'password is required');
+  // } else {
+  //   showSuccess(password);
+  // }
+
+  // if (password2.value === '') {
+  //   showError(password2, 'password2 is required');
+  // } else {
+  //   showSuccess(password2);
+  // }
 });
