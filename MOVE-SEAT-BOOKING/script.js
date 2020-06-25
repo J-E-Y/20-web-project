@@ -8,19 +8,36 @@ const movieSelect = document.getElementById('movie');
 // +movieSelect.value << + 붙이면 string 을 숫자로 바꿔준다.
 let ticketPrice = +movieSelect.value;
 
+//* Save Selected Movie index and price
+
+function setMovieData(movieIndex, moviePrice) {
+  localStorage.setItem('selectedMoiveIndex', movieIndex);
+  localStorage.setItem('selectedMoivePrice', moviePrice);
+}
+
 //* updata total and count
 function updataSelecetedCount() {
   const selectedSeats = document.querySelectorAll('.row .seat.selected');
+
+  //* Copy selected seats into arr
+  //* Map through array
+  //* return a new Array
+
+  const seatsIndex = [...selectedSeats].map((seat) => [...seats].indexOf(seat));
+
+  localStorage.setItem('selectedSeats', JSON.stringify(seatsIndex));
+
   const selectedSeatsCount = selectedSeats.length;
 
   count.innerText = selectedSeatsCount;
   total.innerText = selectedSeatsCount * ticketPrice;
 }
 
-//* movie select event
+//* Movie select event
 
 movieSelect.addEventListener('change', (e) => {
   ticketPrice = +e.target.value;
+  setMovieData(e.target.selectedIndex, e.target.value);
   updataSelecetedCount();
 });
 
