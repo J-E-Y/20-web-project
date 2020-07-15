@@ -26,13 +26,6 @@ async function getRandomUser() {
   addData(newUser);
 }
 
-//* Sort users by richest
-
-function sortByRichest() {
-  data.sort((a, b) => b.money - a.money);
-  updataDom();
-}
-
 //* double eveyone Money
 
 function doubleMoney() {
@@ -40,6 +33,20 @@ function doubleMoney() {
     return { ...user, money: user.money * 2 };
   });
 
+  updataDom();
+}
+
+//* Sort users by richest
+
+function sortByRichest() {
+  data.sort((a, b) => b.money - a.money);
+  updataDom();
+}
+
+//*  Filter only millionaires
+
+function showMillionaires() {
+  data = data.filter((user) => user.money > 1000000);
   updataDom();
 }
 
@@ -79,3 +86,5 @@ addUserBtn.addEventListener('click', getRandomUser);
 doubleBtn.addEventListener('click', doubleMoney);
 
 sortBtn.addEventListener('click', sortByRichest);
+
+showMillionairesBtn.addEventListener('click', showMillionaires);
