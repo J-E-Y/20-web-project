@@ -37,3 +37,7 @@
 ## 9.Expense-Tracker
 
 ![expens_tracker](https://user-images.githubusercontent.com/47516835/93047537-b1b2c880-f697-11ea-9205-3cbbb20e6946.gif)
+
+## 10. Music-player
+
+![music-player](https://user-images.githubusercontent.com/47516835/93416115-0d6f9280-f8e0-11ea-9ef2-084fe6d377ee.gif)
