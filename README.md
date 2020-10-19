@@ -45,3 +45,7 @@
 ## 11. Infinite-scroll-blog
 
 ![INFINITE-SCROLL-BLOG](https://user-images.githubusercontent.com/47516835/96101853-da391700-0f10-11eb-9367-408093929f55.gif)
+
+## 12. Typing-game
+
+![typing-game](https://user-images.githubusercontent.com/47516835/96421311-96f0e800-1231-11eb-8bf0-1bc59b17867f.gif)
