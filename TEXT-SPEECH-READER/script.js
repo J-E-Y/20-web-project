@@ -66,11 +66,11 @@ function createBox(item) {
   const { image, text } = item;
 
   box.classList.add('box');
-  box.innerHTML = `
-  <img src="${image}" alt="${text}" />
-  <pclass="info"${text}></p>
-  `;
 
+  box.innerHTML = `
+    <img src="${image}" alt="${text}" />
+    <p class="info">${text}</p>
+  `;
   //? @todo - speak event
 
   main.appendChild(box);
