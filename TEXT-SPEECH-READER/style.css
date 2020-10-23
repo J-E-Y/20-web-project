@@ -81,10 +81,6 @@ select:focus {
   height: 150px;
 }
 
-.text-box .btn {
-  width: 100%;
-}
-
 .text-box .close {
   float: right;
   text-align: right;
