@@ -49,3 +49,7 @@
 ## 12. Typing-game
 
 ![typing-game](https://user-images.githubusercontent.com/47516835/96421311-96f0e800-1231-11eb-8bf0-1bc59b17867f.gif)
+
+## 13. Text-Speech-Reader
+
+![TEXT-SPEECH-READER](https://user-images.githubusercontent.com/47516835/97129610-ab2d6b80-1782-11eb-9cd2-491187834a5c.gif)
