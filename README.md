@@ -53,3 +53,9 @@
 ## 13. Text-Speech-Reader
 
 ![TEXT-SPEECH-READER](https://user-images.githubusercontent.com/47516835/97129610-ab2d6b80-1782-11eb-9cd2-491187834a5c.gif)
+
+## 14. Momory-Card
+
+<!-- ![momory_cards](https://user-images.githubusercontent.com/47516835/97694502-01354280-1ae6-11eb-90b3-4e072d03a584.gif) -->
+
+<img src="https://user-images.githubusercontent.com/47516835/97694502-01354280-1ae6-11eb-90b3-4e072d03a584.gif"width="50%"/>
