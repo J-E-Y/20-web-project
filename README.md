@@ -85,4 +85,4 @@
 
 <!-- ![momory_cards](https://user-images.githubusercontent.com/47516835/97694502-01354280-1ae6-11eb-90b3-4e072d03a584.gif) -->
 
-<img src="https://user-images.githubusercontent.com/47516835/97694502-01354280-1ae6-11eb-90b3-4e072d03a584.gif"width="50%"/>
+<img src="https://user-images.githubusercontent.com/47516835/97694502-01354280-1ae6-11eb-90b3-4e072d03a584.gif" width="50%"/>
