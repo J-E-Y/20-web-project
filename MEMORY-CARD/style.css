@@ -110,3 +110,23 @@ h1 button {
   width: 100%;
   background: #fff;
 }
+
+.inner-card-fornt {
+  transform: rotateX(0deg);
+  z-index: 2;
+}
+.inner-card-back {
+  transform: rotateX(180deg);
+}
+
+.inner-card-front::after,
+.inner-card-back::after {
+  content: '\f021 Flip';
+  font-family: 'Font Awsome 5 Free', Lato, sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ddd;
+}
