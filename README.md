@@ -4,85 +4,56 @@
 
 ## 1.Form-validator
 
-<img src="https://user-images.githubusercontent.com/47516835/90860387-df705e80-e3c4-11ea-8d99-d798ab507a95.gif" width="50%"/>
-
-<!-- ![ Form-validator](https://user-images.githubusercontent.com/47516835/90860387-df705e80-e3c4-11ea-8d99-d798ab507a95.gif) -->
+![ Form-validator](https://user-images.githubusercontent.com/47516835/90860387-df705e80-e3c4-11ea-8d99-d798ab507a95.gif)
 
 ## 2.Move seat booking
 
-<img src="https://user-images.githubusercontent.com/47516835/90860441-f6af4c00-e3c4-11ea-9b48-1193e233233b.gif" width="50%"/>
-
-<!-- ![move seat booking](https://user-images.githubusercontent.com/47516835/90860441-f6af4c00-e3c4-11ea-9b48-1193e233233b.gif) -->
+![move seat booking](https://user-images.githubusercontent.com/47516835/90860441-f6af4c00-e3c4-11ea-9b48-1193e233233b.gif)
 
 ## 3.Custom video player
 
-<img src="https://user-images.githubusercontent.com/47516835/90862924-24968f80-e3c9-11ea-812e-693900869179.gif" width="50%"/>
-
-<!-- ![custom video player 7](https://user-images.githubusercontent.com/47516835/90862924-24968f80-e3c9-11ea-812e-693900869179.gif) -->
+![custom video player 7](https://user-images.githubusercontent.com/47516835/90862924-24968f80-e3c9-11ea-812e-693900869179.gif)
 
 ## 4.Exchange rate calculator
 
-<img src="https://user-images.githubusercontent.com/47516835/90860434-f31bc500-e3c4-11ea-9b61-967bdc79cc90.gif" width="50%"/>
-
-<!-- ![exchange rate calculator](https://user-images.githubusercontent.com/47516835/90860434-f31bc500-e3c4-11ea-9b61-967bdc79cc90.gif) -->
+![exchange rate calculator](https://user-images.githubusercontent.com/47516835/90860434-f31bc500-e3c4-11ea-9b61-967bdc79cc90.gif)
 
 ## 5.Dom Array Methods
 
-<img src="https://user-images.githubusercontent.com/47516835/90860429-f1520180-e3c4-11ea-8012-1ae94574ca4e.gif" width="50%"/>
-
-<!-- ![Dom Array Methods](https://user-images.githubusercontent.com/47516835/90860429-f1520180-e3c4-11ea-8012-1ae94574ca4e.gif) -->
+![Dom Array Methods](https://user-images.githubusercontent.com/47516835/90860429-f1520180-e3c4-11ea-8012-1ae94574ca4e.gif)
 
 ## 6.Modal Menu Slider
 
-<img src="https://user-images.githubusercontent.com/47516835/90860439-f4e58880-e3c4-11ea-9fde-0482bf610fb0.gif" width="50%"/>
-
-<!-- ![Modal Menu Slider ](https://user-images.githubusercontent.com/47516835/90860439-f4e58880-e3c4-11ea-9fde-0482bf610fb0.gif) -->
+![Modal Menu Slider ](https://user-images.githubusercontent.com/47516835/90860439-f4e58880-e3c4-11ea-9fde-0482bf610fb0.gif)
 
 ## 7.Hangman
 
-<img src="https://user-images.githubusercontent.com/47516835/91683967-054dee00-eb91-11ea-9f12-8f0c98c3a454.gif" width="50%"/>
-
-<!-- ![hangman](https://user-images.githubusercontent.com/47516835/91683967-054dee00-eb91-11ea-9f12-8f0c98c3a454.gif) -->
+![hangman](https://user-images.githubusercontent.com/47516835/91683967-054dee00-eb91-11ea-9f12-8f0c98c3a454.gif)
 
 ## 8.Meal-finder
 
-<img src="https://user-images.githubusercontent.com/47516835/91832531-7c15e480-ec80-11ea-80a9-26bb1561d9a2.gif" width="50%"/>
-
-<!-- ![meal-finder](https://user-images.githubusercontent.com/47516835/91832531-7c15e480-ec80-11ea-80a9-26bb1561d9a2.gif) -->
+![meal-finder](https://user-images.githubusercontent.com/47516835/91832531-7c15e480-ec80-11ea-80a9-26bb1561d9a2.gif)
 
 ## 9.Expense-Tracker
 
-<img src="https://user-images.githubusercontent.com/47516835/93047537-b1b2c880-f697-11ea-9205-3cbbb20e6946.gif" width="50%"/>
-
-<!-- ![expens_tracker](https://user-images.githubusercontent.com/47516835/93047537-b1b2c880-f697-11ea-9205-3cbbb20e6946.gif) -->
+![expens_tracker](https://user-images.githubusercontent.com/47516835/93047537-b1b2c880-f697-11ea-9205-3cbbb20e6946.gif)
 
 ## 10. Music-player
 
-<img src="https://user-images.githubusercontent.com/47516835/93416115-0d6f9280-f8e0-11ea-9ef2-084fe6d377ee.gif" width="50%"/>
-
-<!-- ![music-player](https://user-images.githubusercontent.com/47516835/93416115-0d6f9280-f8e0-11ea-9ef2-084fe6d377ee.gif) -->
+![music-player](https://user-images.githubusercontent.com/47516835/93416115-0d6f9280-f8e0-11ea-9ef2-084fe6d377ee.gif)
 
 ## 11. Infinite-scroll-blog
 
-<img src="https://user-images.githubusercontent.com/47516835/96101853-da391700-0f10-11eb-9367-408093929f55.gif" width="50%"/>
-
-<!-- ![INFINITE-SCROLL-BLOG](https://user-images.githubusercontent.com/47516835/96101853-da391700-0f10-11eb-9367-408093929f55.gif) -->
+![INFINITE-SCROLL-BLOG](https://user-images.githubusercontent.com/47516835/96101853-da391700-0f10-11eb-9367-408093929f55.gif)
 
 ## 12. Typing-game
 
-<img src="https://user-images.githubusercontent.com/47516835/96421311-96f0e800-1231-11eb-8bf0-1bc59b17867f.gif" width="50%"/>
-
-<!--
-![typing-game](https://user-images.githubusercontent.com/47516835/96421311-96f0e800-1231-11eb-8bf0-1bc59b17867f.gif) -->
+![typing-game](https://user-images.githubusercontent.com/47516835/96421311-96f0e800-1231-11eb-8bf0-1bc59b17867f.gif)
 
 ## 13. Text-Speech-Reader
 
-<img src="https://user-images.githubusercontent.com/47516835/97129610-ab2d6b80-1782-11eb-9cd2-491187834a5c.gif" width="50%"/>
+![TEXT-SPEECH-READER](https://user-images.githubusercontent.com/47516835/97129610-ab2d6b80-1782-11eb-9cd2-491187834a5c.gif)
 
-<!-- ![TEXT-SPEECH-READER](https://user-images.githubusercontent.com/47516835/97129610-ab2d6b80-1782-11eb-9cd2-491187834a5c.gif) -->
+## 14. Momory-Card
 
-<!-- ## 14. Momory-Card -->
-
-<!-- ![momory_cards](https://user-images.githubusercontent.com/47516835/97694502-01354280-1ae6-11eb-90b3-4e072d03a584.gif) -->
-
-<img src="https://user-images.githubusercontent.com/47516835/97694502-01354280-1ae6-11eb-90b3-4e072d03a584.gif" width="50%"/>
+![momory_cards](https://user-images.githubusercontent.com/47516835/97694502-01354280-1ae6-11eb-90b3-4e072d03a584.gif)
