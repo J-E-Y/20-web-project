@@ -57,3 +57,7 @@
 ## 14. Momory-Card
 
 ![momory_cards](https://user-images.githubusercontent.com/47516835/97694502-01354280-1ae6-11eb-90b3-4e072d03a584.gif)
+
+## 15. Lyrics-Search
+
+![LyricsSearch](https://user-images.githubusercontent.com/47516835/97838231-177c1200-1d23-11eb-8157-d1df738c10c9.gif)
