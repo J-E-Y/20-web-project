@@ -81,3 +81,29 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.container.grow {
+  animation: grow 3s linear forwards;
+}
+
+@keyframes grow {
+  form {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.container.shrick {
+  animation: shrick 3s linear forwards;
+}
+
+@keyframes grow {
+  form {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
