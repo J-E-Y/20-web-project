@@ -10,17 +10,17 @@ let score = 0;
 const brickRowCount = 9;
 const brickColumnCount = 5;
 
-// Create ball props
+//! Create ball props
 const ball = {
   x: canvas.width / 2,
   y: canvas.height / 2,
   size: 10,
   speed: 4,
   dx: 4,
-  dy: -4,
+  dy: 0,
 };
 
-// Draw ball on canvas
+//! Draw ball on canvas
 
 function drawBall() {
   ctx.beginPath();
@@ -30,7 +30,7 @@ function drawBall() {
   ctx.closePath();
 }
 
-// Create paddle props
+//! Create paddle props
 const paddle = {
   x: canvas.width / 2 - 40,
   y: canvas.height - 20,
@@ -40,7 +40,7 @@ const paddle = {
   dx: 0,
 };
 
-// Create brick props
+//! Create brick props
 const brickInfo = {
   w: 70,
   h: 20,
@@ -50,7 +50,7 @@ const brickInfo = {
   visible: true,
 };
 
-// Create bricks
+//! Create bricks
 const bricks = [];
 for (let i = 0; i < brickRowCount; i++) {
   bricks[i] = [];
@@ -63,7 +63,7 @@ for (let i = 0; i < brickRowCount; i++) {
 
 // console.log(bricks);
 
-// Draw paddle on canvas
+//! Draw paddle on canvas
 function drawPaddle() {
   ctx.beginPath();
   ctx.rect(paddle.x, paddle.y, paddle.w, paddle.h);
@@ -72,13 +72,13 @@ function drawPaddle() {
   ctx.closePath();
 }
 
-// Draw score oon canvas
+//! Draw score oon canvas
 function drawScore() {
   ctx.font = '20px Arial';
   ctx.fillText(`Score: ${score}`, canvas.width - 100, 30);
 }
 
-// Draw bricks on canvas
+//! Draw bricks on canvas
 function drawBricks() {
   bricks.forEach((column) => {
     column.forEach((brick) => {
@@ -91,17 +91,69 @@ function drawBricks() {
   });
 }
 
-// Draw everything()
+//! Draw everything()
 function draw() {
+  //! Clear canvas
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
   drawBall();
   drawPaddle();
   drawScore();
   drawBricks();
 }
 
-draw();
+//! Move paddle on canvas
 
-// Rules and close event handlers
+function movePaddle() {
+  paddle.x += paddle.dx;
+
+  //! Wall detection
+  if (paddle.x + paddle.w > canvas.width) {
+    paddle.x = canvas.width - paddle.w;
+  }
+
+  if (paddle.x < 0) {
+    paddle.x = 0;
+  }
+}
+
+//! Update canvas drawing and animation
+function update() {
+  movePaddle();
+
+  //! Draw eveything
+  draw();
+
+  requestAnimationFrame(update);
+}
+update();
+
+//! Keydown event
+function keyDown(e) {
+  if (e.key === 'Right' || e.key === 'ArrowRight') {
+    paddle.dx = paddle.speed;
+  } else if (e.key === 'Left' || e.key === 'ArrowLeft') {
+    paddle.dx = -paddle.speed;
+  }
+}
+
+//! Keyup event
+function keyUp(e) {
+  if (
+    e.key === 'Right' ||
+    e.key === 'ArrowRight' ||
+    e.key === 'Left' ||
+    e.key === 'ArrowLeft'
+  ) {
+    paddle.dx = 0;
+  }
+}
+
+//!  Keyboard event handlers
+document.addEventListener('keydown', keyDown);
+document.addEventListener('keyup', keyUp);
+
+//! Rules and close event handlers
 
 rulesBtn.addEventListener('click', () => {
   rules.classList.add('show');
