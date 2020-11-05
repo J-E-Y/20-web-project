@@ -69,3 +69,7 @@
 ## 17. Breakout-Game
 
 ![breakout](https://user-images.githubusercontent.com/47516835/98091967-7aa7a900-1ec9-11eb-856b-95cf1b736d51.gif)
+
+## 18. new year countDown
+
+![newyearcountdown](https://user-images.githubusercontent.com/47516835/98219012-d177b600-1f8f-11eb-91e3-fc6efe2e0167.gif)
