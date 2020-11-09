@@ -77,3 +77,7 @@
 ## 19. Sortable List
 
 ![sortable-list](https://user-images.githubusercontent.com/47516835/98235941-e2cbbd00-1fa5-11eb-9af7-73d243470523.gif)
+
+## 20. Speak Number guess
+
+![speak-number-guess](https://user-images.githubusercontent.com/47516835/98320847-169af700-2027-11eb-8500-a01666a002ef.gif)
